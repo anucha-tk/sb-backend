@@ -1,0 +1,20 @@
+{
+  "name": "sb-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch run src/index.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.5",
+    "@types/bun": "latest",
+    "@types/express": "^5.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
